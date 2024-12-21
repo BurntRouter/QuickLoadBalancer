@@ -1,0 +1,12 @@
+downstreamServers = ["http://127.0.0.1:8080"]
+insecure = false
+listenAddr = "0.0.0.0"
+listenPort = 8081
+sslEnabled = false
+sslCert = ""
+sslKey = ""
+database = "memory"
+algo = "leastconn"
+trackingMode = "header"
+trackingHeaders = ["Server-IP", "Port"]
+trackingValue = "{Server-IP}: {Port}"
